@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cinesthetic | Film Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page--dark">
+  <header class="site-header">
+    <div class="logo">Cinesthetic<span>2026</span></div>
+    <nav class="main-nav">
+      <a href="index.html">Front Page</a>
+      <a href="movies.html" class="active">Films</a>
+      <a href="tv.html">Series</a>
+      <a href="news.html">News</a>
+    </nav>
+    <div class="header-actions">
+      <input type="search" placeholder="Search films" aria-label="Search films" />
+      <button class="pill-btn">Filter Heat</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div>
+        <p class="kicker">Film Atlas</p>
+        <h1>High-voltage releases, mapped for obsessives</h1>
+        <p class="lede">Critic-grade curation with tonal tags, festival momentum, and the trailers that made us lean forward.</p>
+      </div>
+      <div class="tag-cloud">
+        <span class="tag">A24-core</span>
+        <span class="tag">Neo-noir</span>
+        <span class="tag">Festival fever</span>
+        <span class="tag">IMAX engineered</span>
+        <span class="tag">Microbudget magic</span>
+      </div>
+    </section>
+
+    <section class="masonry" aria-label="Film grid">
+      <article class="tile">
+        <div class="tile__art" style="background-image:url('https://images.unsplash.com/photo-1501426026826-31c667bdf23d?auto=format&fit=crop&w=900&q=80');"></div>
+        <div class="tile__body">
+          <div class="meta-row"><span class="badge">97%</span><span>Sci-fi • 2h 10m</span></div>
+          <h3>Chromatic Drift</h3>
+          <p>Gravity-defying romance where color itself is contraband.</p>
+          <div class="cta-row">
+            <a class="primary" href="article.html">Read review</a>
+            <a class="ghost" href="#">Watch trailer</a>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <div class="tile__art" style="background-image:url('https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=900&q=80');"></div>
+        <div class="tile__body">
+          <div class="meta-row"><span class="badge badge--warning">Festival Heat</span><span>Drama • 2h 02m</span></div>
+          <h3>Room Tone</h3>
+          <p>Inside the solitude of a sound engineer chasing the perfect echo.</p>
+          <div class="cta-row">
+            <a class="primary" href="article.html">Review</a>
+            <a class="ghost" href="#">Soundtrack</a>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <div class="tile__art" style="background-image:url('https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80');"></div>
+        <div class="tile__body">
+          <div class="meta-row"><span class="badge">93%</span><span>Thriller • 1h 54m</span></div>
+          <h3>Midnight River</h3>
+          <p>Fog, secrets, and a detective who only trusts analog cameras.</p>
+          <div class="cta-row">
+            <a class="primary" href="article.html">Critic take</a>
+            <a class="ghost" href="#">Trailer</a>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <div class="tile__art" style="background-image:url('https://images.unsplash.com/photo-1502139214982-d0ad755818d8?auto=format&fit=crop&w=900&q=80');"></div>
+        <div class="tile__body">
+          <div class="meta-row"><span class="badge">88%</span><span>Docu • 1h 30m</span></div>
+          <h3>Echoes of Neon</h3>
+          <p>Documentary that tracks streetlights as memory keepers across five cities.</p>
+          <div class="cta-row">
+            <a class="primary" href="article.html">Review</a>
+            <a class="ghost" href="#">Playlist</a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for critics who chase the next mood before the market does.</p>
+    <div class="meta-row">
+      <a href="#">Submit a film</a>
+      <a href="#">Press</a>
+    </div>
+  </footer>
+</body>
+</html>
