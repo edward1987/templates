@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midnight Metro | Review & Deep Dive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style>
+    body { background: radial-gradient(circle at 10% 0%, rgba(255,77,103,0.08), transparent 30%), var(--bg); }
+    .article { max-width: 1080px; margin: 0 auto; padding: 40px 24px 60px; display: grid; gap: 20px; }
+    .breadcrumbs { color: var(--muted); font-size: 0.9rem; }
+    .header { display: grid; gap: 12px; }
+    .header h1 { font-size: clamp(2rem, 4vw, 3rem); margin: 4px 0; }
+    .byline { color: var(--muted); }
+    .scorecard { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    .scorebox { background: var(--panel); border-radius: 14px; padding: 16px; border: 1px solid rgba(255,255,255,0.08); }
+    .scorebox strong { font-size: 2.4rem; display: block; }
+    .details { display: grid; gap: 10px; background: var(--panel); border-radius: 14px; padding: 16px; border: 1px solid rgba(255,255,255,0.08); }
+    .details .row { display: flex; justify-content: space-between; color: var(--muted); }
+    .callout { background: linear-gradient(120deg, rgba(255,77,103,0.18), rgba(255,138,61,0.08)); border-radius: 18px; padding: 18px; border: 1px solid rgba(255,255,255,0.1); }
+    .article p { color: #dbe2f9; line-height: 1.7; }
+    iframe { border-radius: 16px; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 20px 60px rgba(0,0,0,0.45); }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">NextWave<span>Critics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="#">Movies</a>
+      <a href="#">TV</a>
+      <a href="#">Rankings</a>
+      <a href="#">Awards</a>
+    </nav>
+    <div class="actions">
+      <input type="search" placeholder="Search films, shows, people…">
+      <button class="pill">Subscribe</button>
+    </div>
+  </header>
+
+  <main class="article">
+    <p class="breadcrumbs">Home / Reviews / Midnight Metro</p>
+    <div class="header">
+      <p class="eyebrow">Film Review · Premiere Spotlight</p>
+      <h1>Midnight Metro is the noir that finally owns the neon</h1>
+      <p class="byline">By Lila Mercer · 1320 words · 7 minute read</p>
+    </div>
+
+    <div class="callout">
+      <div class="eyebrow">Watch the energy</div>
+      <iframe width="100%" height="420" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Midnight Metro trailer" allowfullscreen></iframe>
+      <p class="muted">Trailers sit above the fold so readers instantly sync with the film's cadence.</p>
+    </div>
+
+    <div class="scorecard">
+      <div class="scorebox">
+        <p class="eyebrow">Freshwave Score</p>
+        <strong>98</strong>
+        <p class="muted">Weighted from critics we trust and sentiment we track.</p>
+      </div>
+      <div class="scorebox">
+        <p class="eyebrow">Audience Pulse</p>
+        <strong>93</strong>
+        <p class="muted">Real-time heat from early screenings and social resonance.</p>
+      </div>
+      <div class="details">
+        <div class="row"><span>Director</span><span>Lina Ortega</span></div>
+        <div class="row"><span>Cast</span><span>Idris Cole · Malena Sung · Theo Ruhl</span></div>
+        <div class="row"><span>Runtime</span><span>2h 11m</span></div>
+        <div class="row"><span>Release</span><span>March 6, 2026</span></div>
+        <div class="row"><span>Genres</span><span>Neo-noir · Thriller · City Symphony</span></div>
+      </div>
+    </div>
+
+    <p>"Midnight Metro" is a feverish sprint through a city that refuses to sleep or explain itself. Ortega shoots stations like cathedrals of chrome, then crashes neon light against oil-slicked streets. The result is a kinetic sermon about ownership of public space and the stories whispered in the tunnels.</p>
+    <p>Where traditional noir leans into shadow, this film amplifies saturation—magenta ticket booths, cyan smoke, gold refractions across train windows. The palette nods to digital billboards in Shibuya while borrowing the analog grime of 1970s New York. It's a cocktail we haven't tasted on screen since the format wars.</p>
+    <p>Idris Cole's conductor-turned-whistleblower provides grounding gravitas. His monologues ride the rhythm of the tracks, and when the score drops to a hum, you hear the collective breath of the crowd trapped between stations. Malena Sung counters with icy charisma; every glance is a headline waiting to print.</p>
+    <p>The script weaponizes silence. There are scenes where dialogue disappears and all that remains is the orchestration of brakes, voices in intercom static, and the faint gasp of street musicians. Ortega trusts the audience to decode—our job is to reward that trust.</p>
+
+    <div class="callout">
+      <p class="eyebrow">Takeaway</p>
+      <p class="muted">"Midnight Metro" is proof that neon noir hasn't peaked—it just needed a director willing to detour into the unknown.</p>
+    </div>
+  </main>
+</body>
+</html>
